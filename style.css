@@ -1,0 +1,46 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el wrapper */
+.wrapper {
+    display: flex;
+}
+
+/* Estilos para el menú lateral */
+.menu-lateral {
+    background-color: #4CAF50; /* Color del menú lateral */
+    width: 200px; /* Ancho del menú */
+    height: 100vh; /* Altura igual al 100% del viewport */
+}
+
+/* Estilos para la lista de elementos del menú */
+.menu-lateral ul {
+    list-style-type: none; /* Quita los estilos de la lista */
+    padding: 0; /* Quita el relleno predeterminado */
+    margin: 0; /* Quita el margen predeterminado */
+}
+
+.menu-lateral ul li {
+    padding: 10px 15px; /* Espacio entre elementos del menú */
+    border-bottom: 1px solid #ccc; /* Línea divisoria entre elementos del menú */
+}
+
+.menu-lateral ul li a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #fff; /* Color del texto de los enlaces */
+    display: block; /* Hace que los enlaces ocupen todo el ancho del elemento li */
+}
+
+.menu-lateral ul li a:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el ratón por encima */
+}
+
+/* Estilos para el contenido */
+.contenido {
+    flex: 1; /* Hace que el contenido ocupe todo el espacio disponible */
+    padding: 20px; /* Espacio alrededor del contenido */
+}
